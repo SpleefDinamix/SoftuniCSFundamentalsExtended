@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrickyStrings", "TrickyStrings\TrickyStrings.csproj", "{D8F5A26B-1575-40DA-AE99-BF8B57D4555F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleFormations", "TriangleFormations\TriangleFormations.csproj", "{B1890653-24E4-43F7-9EFF-E9140131FDE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tetris", "Tetris\Tetris.csproj", "{A4B5F5F2-FF0B-4C8A-B9B3-0B6068C6D677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinMiner", "CoinMiner\CoinMiner.csproj", "{6CAD3119-C356-49B8-B00A-F1F477454266}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8F5A26B-1575-40DA-AE99-BF8B57D4555F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F5A26B-1575-40DA-AE99-BF8B57D4555F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F5A26B-1575-40DA-AE99-BF8B57D4555F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F5A26B-1575-40DA-AE99-BF8B57D4555F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1890653-24E4-43F7-9EFF-E9140131FDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1890653-24E4-43F7-9EFF-E9140131FDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1890653-24E4-43F7-9EFF-E9140131FDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1890653-24E4-43F7-9EFF-E9140131FDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B5F5F2-FF0B-4C8A-B9B3-0B6068C6D677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B5F5F2-FF0B-4C8A-B9B3-0B6068C6D677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B5F5F2-FF0B-4C8A-B9B3-0B6068C6D677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B5F5F2-FF0B-4C8A-B9B3-0B6068C6D677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CAD3119-C356-49B8-B00A-F1F477454266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAD3119-C356-49B8-B00A-F1F477454266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAD3119-C356-49B8-B00A-F1F477454266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAD3119-C356-49B8-B00A-F1F477454266}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB33301B-9E84-4D9A-AD56-60A3F1A50359}
+	EndGlobalSection
+EndGlobal
