@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Learning_C_Sharp___Testing
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             bool repeat;
 
@@ -87,7 +83,7 @@ namespace Learning_C_Sharp___Testing
                     double result = tempCelsius * 1.8 + 32;
                     Console.WriteLine("The Conversion Celsius/Farenheit is: {0}°F", Math.Round(result,2));
                     Console.WriteLine();
-                    Console.WriteLine("Do you want to continue?(Y/n)");
+                    Console.WriteLine("Do you want to continue?(y/N)");
 
                     string toHaveRepeat = Console.ReadLine();
                     if (toHaveRepeat.ToLower() == "y")
