@@ -43,6 +43,14 @@ namespace LambadaExpressions
                 input = Console.ReadLine();
             }
 
+            foreach (var expression in lambadaExpressions)
+            {
+                foreach (var selectorObject in expression.Value)
+                {
+                    Console.WriteLine(expression.Key + " => " + selectorObject.Key + '.' + selectorObject.Value);
+                }
+            }
+
         }
     }
 }
