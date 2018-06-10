@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises", "Exercises\Exer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptimizedBankingSystem", "OptimizedBankingSystem\OptimizedBankingSystem.csproj", "{E984DC39-E271-45C0-8D57-27CE108DADB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals", "Animals\Animals.csproj", "{A4A499A3-2F62-4780-AA71-D1469879FF78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Websites", "Websites\Websites.csproj", "{692E86AE-DAAA-40FF-99C4-26F4B9404F46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{E984DC39-E271-45C0-8D57-27CE108DADB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E984DC39-E271-45C0-8D57-27CE108DADB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E984DC39-E271-45C0-8D57-27CE108DADB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4A499A3-2F62-4780-AA71-D1469879FF78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4A499A3-2F62-4780-AA71-D1469879FF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4A499A3-2F62-4780-AA71-D1469879FF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4A499A3-2F62-4780-AA71-D1469879FF78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692E86AE-DAAA-40FF-99C4-26F4B9404F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692E86AE-DAAA-40FF-99C4-26F4B9404F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692E86AE-DAAA-40FF-99C4-26F4B9404F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692E86AE-DAAA-40FF-99C4-26F4B9404F46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
