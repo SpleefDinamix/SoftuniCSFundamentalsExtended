@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{692E86AE-DAAA-40FF-99C4-26F4B9404F46}</ProjectGuid>
+    <ProjectGuid>{B76E9D52-15DC-4AF2-8A87-47407F106597}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Websites</RootNamespace>
-    <AssemblyName>Websites</AssemblyName>
+    <RootNamespace>Boxes</RootNamespace>
+    <AssemblyName>Boxes</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,7 +44,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Website.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
