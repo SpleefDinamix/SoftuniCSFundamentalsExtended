@@ -14,7 +14,6 @@ namespace NoDuplicates
                 .ToList();
 
             Console.WriteLine(String.Join(" ",list));
-
         }
     }
 }
