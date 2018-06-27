@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterExtensions", "FilterExtensions\FilterExtensions.csproj", "{6DCA82C3-DA1E-4EEA-A0C3-09679FA78626}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLContents", "HTMLContents\HTMLContents.csproj", "{56B9B124-B0F2-41A4-8A0E-D7F71106617E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DCA82C3-DA1E-4EEA-A0C3-09679FA78626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DCA82C3-DA1E-4EEA-A0C3-09679FA78626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DCA82C3-DA1E-4EEA-A0C3-09679FA78626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DCA82C3-DA1E-4EEA-A0C3-09679FA78626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B9B124-B0F2-41A4-8A0E-D7F71106617E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B9B124-B0F2-41A4-8A0E-D7F71106617E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B9B124-B0F2-41A4-8A0E-D7F71106617E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B9B124-B0F2-41A4-8A0E-D7F71106617E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4741405B-F92F-4839-99A0-457F07DC7397}
+	EndGlobalSection
+EndGlobal
