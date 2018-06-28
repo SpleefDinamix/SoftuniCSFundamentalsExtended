@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterExtensions", "FilterE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLContents", "HTMLContents\HTMLContents.csproj", "{56B9B124-B0F2-41A4-8A0E-D7F71106617E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDatabase", "UserDatabase\UserDatabase.csproj", "{CE9BEA99-E10E-43D4-9398-3D2267E1A432}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{56B9B124-B0F2-41A4-8A0E-D7F71106617E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56B9B124-B0F2-41A4-8A0E-D7F71106617E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56B9B124-B0F2-41A4-8A0E-D7F71106617E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE9BEA99-E10E-43D4-9398-3D2267E1A432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9BEA99-E10E-43D4-9398-3D2267E1A432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9BEA99-E10E-43D4-9398-3D2267E1A432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9BEA99-E10E-43D4-9398-3D2267E1A432}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
