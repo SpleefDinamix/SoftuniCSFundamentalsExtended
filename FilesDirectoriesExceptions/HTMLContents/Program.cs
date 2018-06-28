@@ -26,40 +26,24 @@ namespace HTMLContents
 
                 if (tag == "title")
                 {
-                    if (!headContent.Contains("<title>"))
-                    {
-                        headContent.Add("<title>");
-                        headContent.Add(content);
-                        headContent.Add("</title>");
-                    }
-                    else
-                    {
-                        headContent.RemoveAt(headContent.IndexOf("<title>") + 1);
-                        headContent.Insert(headContent.IndexOf("</title>"), content);
-                    }
+                    CreateOrUpdateTitle(headContent, content);
                 }
                 else
                 {
-                    bodyContent.Add('<' + tag + '>');
-                    bodyContent.Add(content);
-                    bodyContent.Add("</" + tag + '>');
+                    AddBodyContent(bodyContent, tag, content);
                 }
 
                 inputLine = Console.ReadLine();
             }
 
+            //Format And Concat tags and content in Head
             var modifiedHeadContent = new List<string>();
-            for (int i = 0; i < headContent.Count; i += 3)
-            {
-                modifiedHeadContent.Add(String.Join("", headContent.Skip(i).Take(3)));
-            }
+            FormatTags(headContent, modifiedHeadContent);
             modifiedHeadContent = modifiedHeadContent.Select(x => x = "\t" + x).ToList();
 
+            //Format And Concat tags and content in Body
             var modifiedBodyContent = new List<string>();
-            for (int i = 0; i < bodyContent.Count; i += 3)
-            {
-                modifiedBodyContent.Add(String.Join("", bodyContent.Skip(i).Take(3)));
-            }
+            FormatTags(bodyContent, modifiedBodyContent);
             modifiedBodyContent = modifiedBodyContent.Select(x => x = "\t" + x).ToList();
 
             htmlTemplete.InsertRange(3, modifiedHeadContent);
@@ -69,6 +53,36 @@ namespace HTMLContents
                 .ForEach(Console.WriteLine);
 
             File.WriteAllLines("../../output/htmlComponents.html", htmlTemplete);
+        }
+
+        public static void FormatTags(List<string> content, List<string> modifiedContent)
+        {
+            for (int i = 0; i < content.Count; i += 3)
+            {
+                modifiedContent.Add(String.Join("", content.Skip(i).Take(3)));
+            }
+        }
+
+        public static void AddBodyContent(List<string> bodyContent, string tag, string content)
+        {
+            bodyContent.Add('<' + tag + '>');
+            bodyContent.Add(content);
+            bodyContent.Add("</" + tag + '>');
+        }
+
+        public static void CreateOrUpdateTitle(List<string> headContent, string content)
+        {
+            if (!headContent.Contains("<title>"))
+            {
+                headContent.Add("<title>");
+                headContent.Add(content);
+                headContent.Add("</title>");
+            }
+            else
+            {
+                headContent.RemoveAt(headContent.IndexOf("<title>") + 1);
+                headContent.Insert(headContent.IndexOf("</title>"), content);
+            }
         }
     }
 }
