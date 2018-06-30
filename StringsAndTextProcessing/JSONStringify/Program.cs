@@ -5,7 +5,7 @@ using System.Text;
 
 namespace JSONStringify
 {
-    public partial class Program
+    public class Program
     {
         public static void Main()
         {
