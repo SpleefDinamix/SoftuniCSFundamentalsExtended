@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{66422344-EB1A-4BE7-B8D2-263758DDDC14}</ProjectGuid>
+    <ProjectGuid>{7B9B2CA5-8613-4C4C-B1FB-53CFA617210F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Products</RootNamespace>
-    <AssemblyName>Products</AssemblyName>
+    <RootNamespace>Placeholders</RootNamespace>
+    <AssemblyName>Placeholders</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
