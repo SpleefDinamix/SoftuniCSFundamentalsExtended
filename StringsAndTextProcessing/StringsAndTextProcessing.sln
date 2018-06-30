@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONStringify", "JSONString
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONParse", "JSONParse\JSONParse.csproj", "{32A492F1-DB41-489E-95EF-DB6F91D4BE46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentenceSplit", "SentenceSplit\SentenceSplit.csproj", "{BF3434B1-ADF3-4A5F-B600-BFAD8F503724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapitalizeWords", "CapitalizeWords\CapitalizeWords.csproj", "{23906C38-751C-45B9-8AAD-ED54368D3028}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{32A492F1-DB41-489E-95EF-DB6F91D4BE46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32A492F1-DB41-489E-95EF-DB6F91D4BE46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32A492F1-DB41-489E-95EF-DB6F91D4BE46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF3434B1-ADF3-4A5F-B600-BFAD8F503724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3434B1-ADF3-4A5F-B600-BFAD8F503724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3434B1-ADF3-4A5F-B600-BFAD8F503724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3434B1-ADF3-4A5F-B600-BFAD8F503724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23906C38-751C-45B9-8AAD-ED54368D3028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23906C38-751C-45B9-8AAD-ED54368D3028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23906C38-751C-45B9-8AAD-ED54368D3028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23906C38-751C-45B9-8AAD-ED54368D3028}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
