@@ -48,7 +48,7 @@ namespace Stateless
             return modState;
         }
 
-        public  static void PrintStatlessStrings(List<string> statelessList)
+        public static void PrintStatlessStrings(List<string> statelessList)
         {
             statelessList
                 .ForEach(state =>
