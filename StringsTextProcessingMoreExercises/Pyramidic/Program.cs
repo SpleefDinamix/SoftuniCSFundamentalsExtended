@@ -56,12 +56,15 @@ namespace Pyramidic
                     }
 
                     bool nextWithSameChar = counter[i + 1].Keys.Contains(chr);
-                    bool nextRowFollowsNextTracer = counter[i + 1][chr] >= tracer[chr] + 2;
 
-                    if (nextWithSameChar && nextRowFollowsNextTracer)
+                    if (nextWithSameChar)
                     {
-                        //Update tracer, a.k.a increment it by 2
-                        tracer[chr] += 2;
+                        bool nextRowFollowsNextTracer = counter[i + 1][chr] >= tracer[chr] + 2;
+                        if (nextRowFollowsNextTracer)
+                        {
+                            //Update tracer, a.k.a increment it by 2
+                            tracer[chr] += 2;
+                        }
                     }
                 }
             }
