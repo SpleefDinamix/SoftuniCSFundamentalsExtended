@@ -14,6 +14,7 @@ namespace SerializeString
             var counter = new Dictionary<char, List<int>>();
             Array.ForEach(uniqueChars, x => counter[x] = new List<int>());
 
+            //Find all matching indexes and store them in the dictionary
             foreach (var uChar in uniqueChars)
             {
                 int lastIndex = text.IndexOf(uChar);
@@ -31,6 +32,7 @@ namespace SerializeString
                 }
             }
 
+            //Printing chars with all indexes found in text 
             counter
                 .ToList()
                 .ForEach(x => Console.WriteLine(

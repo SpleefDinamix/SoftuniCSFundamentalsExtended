@@ -34,6 +34,8 @@ namespace Stateless
             string modState = memo.Key;
             string modFiction = memo.Value;
 
+            //Remove substings of the fiction found in the state
+            //Repeat while the modified fiction (a.k.a substinged fiction) exists 
             while (modFiction.Length > 1)
             {
                 modState = modState.Replace(modFiction, String.Empty);
