@@ -50,13 +50,9 @@ namespace EnduranceRally
                 }
 
                 if (racerFuel > 0)
-                {
                     Console.WriteLine("{0} - fuel left {1:F2}", racer, racerFuel);
-                }
                 else
-                {
                     Console.WriteLine($"{racer} - reached {reachedZone}");
-                }
                 
             }
         }
