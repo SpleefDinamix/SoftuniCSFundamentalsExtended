@@ -1,2 +1,4 @@
 # SoftuniCSFundamentalsExtended
-Homework, projects, tests, algorithums and more ...
+### Includes past lectures from 2017 witch have:
+ * Problem desription
+ * Problem solution
